@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    
+    <title>Money Manager - iOS Dark</title>
+    <meta name="description" content="Offline-first iOS style minimalist money manager app. All your financial data stays 100% locally on your device inside IndexedDB — no cloud, no tracking, no backend." />
+
+    <!-- Core PWA Tags -->
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: light)" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="Money Manager" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- Apple / iPhone Web App (iOS PWA) Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Money Mgr" />
+
+    <!-- iOS Safe Area + Notch Support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <!-- iOS Home Screen Icons (Apple touch icons) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/monay-manager/icon-192.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="/monay-manager/icon-192.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="/monay-manager/icon-512.png" />
+
+    <!-- Regular favicons -->
+    <link rel="icon" type="image/png" sizes="192x192" href="/monay-manager/icon-192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/monay-manager/icon-512.png" />
+    <link rel="icon" type="image/svg+xml" href="/monay-manager/icon.svg" />
+    <link rel="shortcut icon" href="/monay-manager/icon.svg" />
+
+    <!-- iOS Launch / Splash Screen Hints -->
+    <meta name="apple-touch-startup-image" content="/monay-manager/icon-512.png" />
+
+    <!-- Web App Manifest (with subpath-aware location) -->
+    <link rel="manifest" href="/monay-manager/manifest.webmanifest" />
+
+    <!-- iOS Prevent tap callouts / zoom on double-tap / text selection in app -->
+    <style>
+      html, body { -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent; overscroll-behavior: none; }
+      input, textarea, select { -webkit-user-select: text; user-select: text; }
+      body { padding-top: env(safe-area-inset-top); padding-bottom: env(safe-area-inset-bottom); padding-left: env(safe-area-inset-left); padding-right: env(safe-area-inset-right); }
+    </style>
+
+    <!-- SF Pro style fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/monay-manager/assets/index-CwT81AsC.js"></script>
+    <link rel="stylesheet" crossorigin href="/monay-manager/assets/index-CeFN_fhk.css">
+  <link rel="manifest" href="/monay-manager/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/monay-manager/registerSW.js"></script></head>
+  <body class="bg-black text-white antialiased selection:bg-blue-600 selection:text-white overflow-x-hidden font-sans">
+    <div id="root"></div>
+  </body>
+</html>
